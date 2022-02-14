@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CatAndDogs/static/css/main.6974cf40.css",
+    "main.js": "/CatAndDogs/static/js/main.1ae7aa05.js",
+    "static/js/787.e6a4fc84.chunk.js": "/CatAndDogs/static/js/787.e6a4fc84.chunk.js",
+    "index.html": "/CatAndDogs/index.html",
+    "main.6974cf40.css.map": "/CatAndDogs/static/css/main.6974cf40.css.map",
+    "main.1ae7aa05.js.map": "/CatAndDogs/static/js/main.1ae7aa05.js.map",
+    "787.e6a4fc84.chunk.js.map": "/CatAndDogs/static/js/787.e6a4fc84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6974cf40.css",
+    "static/js/main.1ae7aa05.js"
+  ]
+}
