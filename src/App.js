@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/navbar";
+import MyImages from "./pages/myImages";
+import Upload from "./pages/upload";
+import PublicImages from "./pages/publicImages";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Favourites from "./pages/favourites";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HashRouter>
+          <Navbar/>
+        <Routes>
+          <Route path="/my-images" element={<MyImages/>}/>
+          <Route path="/public-images" element={<PublicImages/>}/>
+          <Route path="/upload" element={<Upload/>}/>
+          <Route path="/favourites" element={<Favourites/>}/>
+
+        </Routes>
+      </HashRouter>
     </div>
   );
 }
